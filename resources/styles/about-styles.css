@@ -1,0 +1,37 @@
+/* DC2 Styles : About */
+
+.team-member-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 300px;
+    height: 215px;
+    padding: 10px 0;
+
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid gray;
+    
+    transition: border-color 300ms;
+}
+
+.team-member-block:hover {
+    border-color: #660086;
+}
+
+.headshot {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.team-member-block a {
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.team-member-block a:hover {
+    background-color: rgba(223,224,223, 0.75);
+}
